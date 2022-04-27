@@ -5,7 +5,7 @@ import React from 'react';
 
 
 export default function Main({ animals }) {
-  return <main style={{ backgroundImage: `url(${backgroundImg})` }}>
+  return <main className="main" style={{ backgroundImage: `url(${backgroundImg})` }}>
     <AnimalList animals={animals}/> 
   </main>;
 }
